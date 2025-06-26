@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "MyCommon",
-    platforms: [.iOS(.v15)],
+    platforms: [.iOS(.v15), .macOS(.v13), .watchOS(.v9), .visionOS(.v1), .tvOS(.v16)],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
